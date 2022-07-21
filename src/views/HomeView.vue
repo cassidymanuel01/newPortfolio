@@ -16,41 +16,12 @@
       </div>
     </div>
   </section>
-<!-- <footer>
-  <p class="pb-4">Copyright &copy; 2022
-        </p>
-    <div class="row gap-2">
-        <div class="col-md-2">
-            <a href="https://www.instagram.com/cassidymanuel_59" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-        <div class="col-md-2">
-            <a href="https://www.facebook.com/cassidy.manuel.56" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        </div>
-        <div class="col-md-2">
-            <a href="mailto:cassidymanuel.59@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-        </div>
-        <div class="col-md-2">
-            <a href="https://github.com/cassidymanuel01" target="_blank"><i class="fa-brands fa-github"></i></a>
-        </div>
-    </div>
-</footer> -->
+
   </div>
 </template>
 
 <script>
-// import Navbar from '../components/navbar.vue';
-// import Footer from "../components/footer.vue";
-// import navbarVue from "../components/navbar.vue";
-// import footerVue from '../components/footer.vue';
 
-// export default {
-//   components: navbarVue,
-//   components: { Footer },
-//   components: footerVue,
-//   components: { Navbar}
-//   ,
-
-// };
 </script>
 
 <style scoped>
@@ -67,7 +38,7 @@
 }
 
 h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Caveat", cursive !important;
   font-size: 90px;
 }
 
@@ -75,7 +46,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Caveat", cursive !important;
 }
 
 
@@ -104,7 +75,7 @@ body {
   animation-iteration-count: infinite;
   /* animation-delay: 2s; */
   opacity: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Caveat", cursive !important;
 }
 @keyframes intro1 {
   0% {
@@ -124,8 +95,8 @@ body {
   justify-content: center;
   align-items: center;
   flex: column;
-  font-family: "Open Sans", sans-serif;
   font-size: 70px;
+  font-family: "Caveat", cursive !important;
   height: 70vh;
   width: auto;
 }
@@ -134,8 +105,8 @@ body {
   color: var(--pink-light);
   padding: 5px;
   margin-bottom: 20vh;
+  font-family: "Caveat", cursive !important;
   opacity: 0;
-  font-family: "Open Sans", sans-serif;
 }
 
 #p {
