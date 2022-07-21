@@ -142,7 +142,7 @@ body {
   animation: gop 10s ease-out 2s 1;
   animation-iteration-count: infinite;
    animation-delay: 4s;
-  font-family: "Open Sans", sans-serif;
+   font-family: "Caveat", cursive !important;
 }
 @keyframes gop {
   30% {
