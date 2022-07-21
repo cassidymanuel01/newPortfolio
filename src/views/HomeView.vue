@@ -60,6 +60,7 @@ body {
 .container {
   background: transparent;
   height: 100vh;
+  font-family: "Caveat", cursive !important;
 }
 
 .wel {
