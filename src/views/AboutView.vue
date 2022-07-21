@@ -39,7 +39,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .about{
-  height: 170vh;
+  height: auto;
     background: url("../assets/EU7vHF0U8AA1OA4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
