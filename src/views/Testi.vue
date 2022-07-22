@@ -138,11 +138,11 @@ export default {
   background-position: center;
   backdrop-filter: blur(10000px);
   z-index: 1;
-  /* transition: .5s all ease-in-out; */
+  transition: .5s all ease-in-out;
   color: white;
-  /* animation: shake linear 2s infinite; */
+  animation: shake linear 2s infinite;
 }
-#testi-card:hover{
+/* #testi-card:hover{
      transform: scale(1.1);
       backdrop-filter: blur(10000px);
       
@@ -160,5 +160,5 @@ export default {
          transform: scale(1.01);
         transform: rotateZ(-.5);
     }
-}
+} */
 </style>
