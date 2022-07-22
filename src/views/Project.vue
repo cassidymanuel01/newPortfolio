@@ -182,7 +182,6 @@ export default {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: space-between;
-  overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -191,7 +190,12 @@ export default {
   max-width: 100%;
   flex-grow: 1;
   object-fit: cover;
-  overflow-x: hidden;
+  transition: all 1s ease;
+}
+
+.project-container img:hover{
+    transform: translate(0px, -20px);
+  transform: scale(1.05);
 }
 
 .btn {

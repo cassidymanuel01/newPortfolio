@@ -67,11 +67,23 @@ html{
     object-fit: cover;
     overflow-x: hidden;
     border-radius: 20px;
+  transition: all 1s ease;
+}
+
+.img-fluid:hover{
+  transform: translate(0px, -20px);
+  transform: scale(1.05);
+
 }
 
 #about p {
       font-family: 'Open Sans', sans-serif;
       font-size: 1.3em;
+}
+
+.btn{
+    background-color: lightcoral;
+    color: antiquewhite;
 }
 
 </style>

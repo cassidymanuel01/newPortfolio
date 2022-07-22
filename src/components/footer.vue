@@ -30,7 +30,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 #footer {
   padding: 30px;
   background: url("../assets/EU7vHF0U8AA1OA4.jpg");

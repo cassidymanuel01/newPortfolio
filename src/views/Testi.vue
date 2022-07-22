@@ -140,16 +140,20 @@ export default {
   z-index: 1;
   
   color: white;
-  
+   transition: 1s all ease-in-out;
 }
 #testi-card:hover{
      transform: scale(1.1);
       backdrop-filter: blur(10000px);
-      background-color: white !important;
+      background:none !important;
       color: black;
-      animation: shake linear 2s infinite;
-      transition: 1s all ease-in-out;
+      animation: shake linear 5s infinite;
 }
+
+#testi-card:hover #testi-card p{
+      color: white;
+}
+
 @keyframes shake {
      0%{
         transform: rotateZ();
@@ -161,7 +165,7 @@ export default {
     }
      60%{
          transform: scale(1.05);
-        transform: rotateZ(-.5);
+        transform: rotateZ(-.5deg);
     }
 }
 </style>

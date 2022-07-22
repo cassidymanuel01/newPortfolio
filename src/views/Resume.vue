@@ -230,6 +230,27 @@ export default {
   color: white;
   backdrop-filter: blur(10px);
   z-index: 1;
+  animation: shake linear 5s infinite;
+}
+
+.card:hover{
+      backdrop-filter: blur(10000px);
+}
+
+
+@keyframes shake {
+     0%{
+        transform: rotateZ();
+    }
+
+    30%{
+         transform: scale(1.5);
+        transform: rotateZ(1.5deg);
+    }
+     60%{
+         transform: scale(1.6);
+        transform: rotateZ(-1.5deg);
+    }
 }
 
 #skills h1 {

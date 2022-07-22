@@ -72,13 +72,13 @@ body {
   font-size: 3em;
   padding: 20px;
   color: var(--pink-light);
-  animation: intro1 6s ease 4s 1;
+  animation: wel1 6s ease 3s 1;
   animation-iteration-count: infinite;
   /* animation-delay: 2s; */
   opacity: 0;
   font-family: "Caveat", cursive !important;
 }
-@keyframes intro1 {
+@keyframes wel1 {
   0% {
     opacity: 0;
   }
@@ -113,7 +113,7 @@ body {
 #p {
   animation: gop 10s ease-out 2s 1;
   animation-iteration-count: infinite;
-   animation-delay: 4s;
+   animation-delay: 3s;
    font-family: "Caveat", cursive !important;
 }
 @keyframes gop {
@@ -130,7 +130,7 @@ body {
 #o {
   animation: goo 10s ease-out 2s 1 ease-in 4s 1;
   animation-iteration-count: infinite;
-   animation-delay: 4s;
+   animation-delay: 3s;
    font-family: "Caveat", cursive !important;
 }
 @keyframes goo {
@@ -147,7 +147,7 @@ body {
 #r {
   animation: gor 10s ease-out 2s 1;
   animation-iteration-count: infinite;
-   animation-delay: 4s;
+   animation-delay: 3s;
    font-family: "Caveat", cursive !important;
 }
 @keyframes gor {
@@ -164,7 +164,7 @@ body {
 #t {
   animation: got 10s ease-out 2s 1;
   animation-iteration-count: infinite;
-   animation-delay: 4s;
+   animation-delay: 3s;
    font-family: "Caveat", cursive !important;
 }
 @keyframes got {
@@ -181,7 +181,7 @@ body {
 #f {
   animation: gof 10s ease-out 3s 1;
   animation-iteration-count: infinite;
-   animation-delay: 4s;
+   animation-delay: 3s;
    font-family: "Caveat", cursive !important;
 }
 @keyframes gof {
@@ -199,7 +199,7 @@ body {
 #o {
   animation: goo 10s ease-out 4s 1;
   animation-iteration-count: infinite;
-   animation-delay: 4s;
+   animation-delay: 3s;
    font-family: "Caveat", cursive !important;
 }
 @keyframes goo {
@@ -216,7 +216,7 @@ body {
 #l {
   animation: gol 10s ease-out 2s 1;
   animation-iteration-count: infinite;
-   animation-delay: 4s;
+   animation-delay: 3s;
    font-family: "Caveat", cursive !important;
 }
 @keyframes gol {
@@ -233,7 +233,7 @@ body {
 #i {
   animation: goi 10s ease-out 2s 1;
   animation-iteration-count: infinite;
-   animation-delay: 4s;
+   animation-delay: 3s;
    font-family: "Caveat", cursive !important;
 }
 @keyframes goi {
@@ -250,7 +250,7 @@ body {
 #o {
   animation: goo 10s ease-out 4s 1;
   animation-iteration-count: infinite;
-  animation-delay: 4s;
+  animation-delay: 3s;
   font-family: "Caveat", cursive !important;
 }
 @keyframes goo {

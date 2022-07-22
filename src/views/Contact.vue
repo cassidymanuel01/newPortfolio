@@ -105,6 +105,28 @@ html{
 
 h1{
       font-family: "Caveat", cursive !important;
+      animation: shake linear 5s infinite;
+      transform: scale(1.1);
+}
+
+@keyframes shake {
+     0%{
+        transform: rotateZ();
+    }
+
+    30%{
+         transform: scale(1.5);
+        transform: rotateZ(1.5deg);
+    }
+     60%{
+         transform: scale(1.6);
+        transform: rotateZ(-1.5deg);
+    }
+}
+
+.btn{
+    background-color: lightcoral;
+    color: antiquewhite;
 }
 
 #contact p {

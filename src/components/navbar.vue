@@ -1,24 +1,24 @@
 <template>
   <nav id="nav">
     <button
-      class="btn"
+      class="btn fw-bold pb-3"
       type="button"
       data-bs-toggle="offcanvas"
       data-bs-target="#staticBackdrop"
       aria-controls="staticBackdrop"
     >
-      Navbar
-    </button>
+    ︾</button>
 
     <div
       class="offcanvas offcanvas-start"
-      data-bs-backdrop="static"
       tabindex="-1"
       id="staticBackdrop"
       aria-labelledby="staticBackdropLabel"
     >
       <div class="offcanvas-header">
-        <h1 class="offcanvas-title text-white" id="staticBackdropLabel">Portfolio</h1>
+        <h1 class="offcanvas-title text-white" id="staticBackdropLabel">
+          Portfolio
+        </h1>
         <button
           type="button"
           class="btn-close"
@@ -58,27 +58,38 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
 
 html {
   scroll-behavior: smooth;
 }
 
-
-
 .btn {
   color: white;
   background: lightcoral;
+  border-radius: 50%;
+  height: 30px;
+  width: 60px;
+  display: block;
+  border-bottom-left-radius: 400px;
+  border-bottom-right-radius: 400px;
+  border-bottom: 10px;
+  position: fixed;
+  z-index: 1000000;
 }
 
 .btn:hover {
-  color: black;
+  color:white;
   background: lightcoral;
 }
 
+nav {
+  display: flex !important;
+  justify-items: center !important;
+}
+
 #nav {
-  padding: 30px;
   background: url("../assets/EU7vHF0U8AA1OA4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -86,6 +97,11 @@ html {
   background-position: center;
   font-family: "Open Sans", sans-serif;
   font-size: 25px;
+  display: flex;
+  justify-content: center !important;
+  z-index: 1;
+  top: 10%;
+  padding-bottom: 50px;
 }
 
 #staticBackdrop {
