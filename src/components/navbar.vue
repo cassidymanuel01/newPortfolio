@@ -15,20 +15,14 @@
       id="staticBackdrop"
       aria-labelledby="staticBackdropLabel"
     >
-      <div class="offcanvas-header">
-        <h1 class="offcanvas-title text-white" id="staticBackdropLabel">
+      <div class="offcanvas-header ">
+        <h1 class="offcanvas-title text-white fw-bold" id="staticBackdropLabel">
           Portfolio
         </h1>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
       </div>
       <div class="offcanvas-body">
         <div>
-          <div class="row gap-2 d-flex justify-content-center">
+          <div class="row gap-2 d-flex justify-content-center fw-bold">
             <p>
               <router-link to="/">Home</router-link>
             </p>
@@ -128,10 +122,14 @@ nav {
 }
 
 #nav a:hover {
-  color: lightcoral;
+  color: black;
 }
 
 #nav a.router-link-exact-active {
-  color: lightcoral;
+  color: black;
+}
+
+#offcanvas{
+    font: bold;
 }
 </style>
