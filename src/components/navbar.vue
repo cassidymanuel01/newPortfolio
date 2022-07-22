@@ -77,6 +77,9 @@ html {
   border-bottom: 10px;
   position: fixed;
   z-index: 1000000;
+  top:50%;
+  transform: rotate(-90deg);
+  left:-15px;
 }
 
 .btn:hover {
@@ -86,7 +89,8 @@ html {
 
 nav {
   display: flex !important;
-  justify-items: center !important;
+  justify-items: start !important;
+  align-content: center !important;
 }
 
 #nav {
@@ -98,9 +102,11 @@ nav {
   font-family: "Open Sans", sans-serif;
   font-size: 25px;
   display: flex;
-  justify-content: center !important;
+  justify-content: start !important;
+  align-content: center !important;
   z-index: 1;
   top: 10%;
+  bottom: 10%;
   padding-bottom: 50px;
 }
 
