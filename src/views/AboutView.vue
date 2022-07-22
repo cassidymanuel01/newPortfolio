@@ -2,7 +2,7 @@
   <div class="about">
     <section id="about">
       <div class="container">
-        <div class="row pb-4">
+        <div class="row pb-5 ">
           <h1 class="fw-bold">
               Hi there! I'm Cassidy Manuel
             </h1>

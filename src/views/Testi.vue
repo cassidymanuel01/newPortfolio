@@ -142,16 +142,16 @@ export default {
   color: white;
   /* animation: shake linear 2s infinite; */
 }
-/* #testi-card:hover{
+#testi-card:hover{
      transform: scale(1.1);
       backdrop-filter: blur(10000px);
       
 }
 @keyframes shake {
-    /* 0%{
+     0%{
         transform: rotateZ();
-    } */
-/*
+    }
+
     30%{
          transform: scale(1.1);
         transform: rotateZ(.5deg);
@@ -160,5 +160,5 @@ export default {
          transform: scale(1.01);
         transform: rotateZ(-.5);
     }
-} */
+}
 </style>
