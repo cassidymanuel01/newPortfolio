@@ -66,8 +66,8 @@ html {
 }
 
 .btn {
-  color: white;
-  background: lightcoral;
+  color: lightcoral;
+  background: white;
   border-radius: 50%;
   height: 30px;
   width: 60px;
