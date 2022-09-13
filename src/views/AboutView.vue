@@ -12,7 +12,7 @@
             <img class="img-fluid" src="https://i.postimg.cc/5thBXCLk/Cassidy-1-jpg3.jpg"/>
           </div>
           <div class="col-md-6">
-            <h3 class="fw-bold">Aspiring Web developer</h3>
+            <h2 class="fw-bold text-decoration-underline">Aspiring Web developer</h2>
             <p class="fw-bold">I am 19 years old and currently a student at Life Choices Coding Academy. I am respectful, dedicated and a team player. I always keep a positive mindset when I approach situations. I also always try to enjoy the little things in life. I have always been fascinated by coding ever since I realised that it was not as hard and bad as I thought it would be. I feel that coding is fun. Since then, I have developed an interest in coding</p>
             <p class="lead fw-bold">Birthday : 01-04-2003 </p>
                 <p class="lead fw-bold">Phone : 063 833 8384</p>
@@ -49,6 +49,26 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+h1{
+      font-family: "Caveat", cursive !important;
+      animation: shake linear 5s infinite;
+      transform: scale(1.1);
+}
+
+@keyframes shake {
+     0%{
+        transform: rotateZ();
+    }
+
+    30%{
+         transform: scale(1.5);
+        transform: rotateZ(1.5deg);
+    }
+     60%{
+         transform: scale(1.6);
+        transform: rotateZ(-1.5deg);
+    }
+}
 
 #about{
   display: flex;
@@ -84,6 +104,15 @@ html{
 .btn{
     background-color: lightcoral;
     color: antiquewhite;
+    border: 0;
+
+}
+
+.btn:hover{
+    background-color: antiquewhite;
+    color: lightcoral;
+    font-weight: 900;
+    border: 0;
 }
 
 </style>

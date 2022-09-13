@@ -119,6 +119,27 @@ export default {
   display: flex;
 }
 
+h1{
+      font-family: "Caveat", cursive !important;
+      animation: shake linear 5s infinite;
+      transform: scale(1.1);
+}
+
+@keyframes shake {
+     0%{
+        transform: rotateZ();
+    }
+
+    30%{
+         transform: scale(1.5);
+        transform: rotateZ(1.5deg);
+    }
+     60%{
+         transform: scale(1.6);
+        transform: rotateZ(-1.5deg);
+    }
+}
+
 #testi-card {
   display: flex;
   justify-content: center;
@@ -136,14 +157,13 @@ export default {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  
   backdrop-filter: blur(10000px);
   z-index: 1;
   color: white;
-   transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
 }
 #testi-card:hover{
-     transform: scale(1.1);
+      transform: scale(1.1);
       backdrop-filter: blur(10000px);
       background:none !important;
       color: black;
