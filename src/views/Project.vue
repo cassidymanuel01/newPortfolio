@@ -4,7 +4,7 @@
     <div v-for="(project, index) in projects" :key="project">
       <section
         id="projects"
-        class=" d-flex justify-content-center align-items-center flex-column pb-5 pt-4"
+        class="d-flex justify-content-center align-items-center flex-column pb-5 pt-4"
       >
         <div class="container">
           <div class="project-container" data-aos="zoom-in">
@@ -12,7 +12,7 @@
               <div class="col-md-6">
                 <img
                   data-bs-toggle="modal"
-                  :data-bs-target="'#exampleModal'+index"
+                  :data-bs-target="'#exampleModal' + index"
                   :src="project.imgURL"
                 />
               </div>
@@ -23,7 +23,7 @@
       <!-- Modal -->
       <div
         class="modal fade"
-        :id="'exampleModal'+index"
+        :id="'exampleModal' + index"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
@@ -78,14 +78,14 @@ export default {
           imgURL: "https://i.postimg.cc/PxjsLy36/newrainbow.png",
           desciption: "Checkout the cool Rainbow that I created.",
           github: "https://github.com/cassidymanuel01/rainbow.git",
-          live: "https://jade-puffpuff-433e9a.netlify.app/"
+          live: "https://jade-puffpuff-433e9a.netlify.app/",
         },
         {
           title: "Website",
           imgURL: "https://i.postimg.cc/14h4bLgS/website2.png",
           desciption: "I created this Website using Bootstrap.",
           github: "https://github.com/cassidymanuel01/exercise",
-          live: "https://charming-axolotl-8f5fc5.netlify.app/"
+          live: "https://charming-axolotl-8f5fc5.netlify.app/",
         },
         {
           title: "Website",
@@ -93,7 +93,7 @@ export default {
           desciption:
             "This is my very First Website that I created with very little knowledge of HTML and CSS.",
           github: "https://github.com/cassidymanuel01/navexample.git",
-          live: "https://clever-taiyaki-29861b.netlify.app/"
+          live: "https://clever-taiyaki-29861b.netlify.app/",
         },
         {
           title: "Portfolio",
@@ -101,23 +101,24 @@ export default {
           desciption:
             "This a Mock Portfolio that I did using only HTML and CSS.",
           github: "https://github.com/cassidymanuel01/portfolio.git",
-          live: "https://app.netlify.com/sites/jocular-longma-f0ecee"
+          live: "https://app.netlify.com/sites/jocular-longma-f0ecee",
         },
         {
           title: "Temperature Converter",
-          imgURL: "https://i.postimg.cc/9F38c0kp/Screenshot-2022-07-21-145910.png",
+          imgURL:
+            "https://i.postimg.cc/9F38c0kp/Screenshot-2022-07-21-145910.png",
           desciption:
             "This is a temperature converter I created with Javascript and CSS",
           github: "https://github.com/cassidymanuel01/temp_con",
-          live: "https://stately-zabaione-e6def6.netlify.app/"
+          live: "https://stately-zabaione-e6def6.netlify.app/",
         },
         {
           title: "Blog",
-          imgURL: "https://i.postimg.cc/QC5LxQCh/Screenshot-2022-07-21-101825.png",
-          desciption:
-            "This is a blog page that I created using CSS",
+          imgURL:
+            "https://i.postimg.cc/QC5LxQCh/Screenshot-2022-07-21-101825.png",
+          desciption: "This is a blog page that I created using CSS",
           github: "https://github.com/cassidymanuel01/blog",
-          live: "https://polite-gumption-ab9152.netlify.app/"
+          live: "https://polite-gumption-ab9152.netlify.app/",
         },
       ],
     };
@@ -127,9 +128,7 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 .project {
   background: url("../assets/EU7vHF0U8AA1OA4.jpg") !important;
@@ -140,8 +139,8 @@ export default {
   color: white !important;
 }
 
-.modal-content{
-    background: url("../assets/EU7vHF0U8AA1OA4.jpg") !important;
+.modal-content {
+  background: url("../assets/EU7vHF0U8AA1OA4.jpg") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
@@ -149,21 +148,21 @@ export default {
   color: white !important;
 }
 
-.btn-close{
-    color: white !important;
+.btn-close {
+  color: white !important;
 }
 
 #projects h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
   color: lightcoral;
 }
 
 #exampleModalLabel {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
   color: white;
-   background: url("../assets/EU7vHF0U8AA1OA4.jpg") !important;
+  background: url("../assets/EU7vHF0U8AA1OA4.jpg") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
@@ -172,7 +171,7 @@ export default {
 }
 
 .para {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.2em;
   color: white;
 }
@@ -182,7 +181,7 @@ export default {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: space-between;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .project-container img {
@@ -193,8 +192,8 @@ export default {
   transition: all 1s ease;
 }
 
-.project-container img:hover{
-    transform: translate(0px, -20px);
+.project-container img:hover {
+  transform: translate(0px, -20px);
   transform: scale(1.05);
 }
 

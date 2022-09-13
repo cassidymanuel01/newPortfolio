@@ -47,9 +47,7 @@ export default {};
  .bi-brands.bi-github{
     color: white;
       width: 70px !important;
-    aspect-ratio: 1 !important;
     height: auto !important;
-    border-radius: 50% !important;
   }
 
   .bi-brands.bi-github:hover{
@@ -59,9 +57,7 @@ export default {};
   .bi-brands.bi-instagram{
     color: white;
       width: 70px !important;
-    aspect-ratio: 1 !important;
     height: auto !important;
-    border-radius: 50% !important;
   }
 
   .bi-brands.bi-instagram:hover{
@@ -71,9 +67,7 @@ export default {};
   .bi-brands.bi-facebook{
     color: white;
       width: 70px !important;
-    aspect-ratio: 1 !important;
     height: auto !important;
-    border-radius: 50% !important;
   }
 
   .bi-brands.bi-facebook:hover{
@@ -83,9 +77,7 @@ export default {};
   .bi-solid.bi-envelope{
       color: white;
       width: 70px !important;
-    aspect-ratio: 1 !important;
     height: auto !important;
-    border-radius: 50% !important;
   }
 
 .bi-solid.bi-envelope:hover{

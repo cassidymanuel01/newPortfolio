@@ -136,9 +136,9 @@ export default {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  
   backdrop-filter: blur(10000px);
   z-index: 1;
-  
   color: white;
    transition: 1s all ease-in-out;
 }

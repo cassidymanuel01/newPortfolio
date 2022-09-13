@@ -11,6 +11,7 @@
 
     <div
       class="offcanvas offcanvas-start"
+      data-bs-backdrop="static"
       tabindex="-1"
       id="staticBackdrop"
       aria-labelledby="staticBackdropLabel"
@@ -63,22 +64,21 @@ html {
   color: lightcoral;
   background: white;
   border-radius: 50%;
-  height: 30px;
-  width: 60px;
+  height: 70px;
+  width: 80px;
   display: block;
-  border-bottom-left-radius: 400px;
-  border-bottom-right-radius: 400px;
-  border-bottom: 10px;
   position: fixed;
-  z-index: 1000000;
+  z-index: 100000;
   top:50%;
   transform: rotate(-90deg);
-  left:-15px;
+  left:-40px;
+  padding: 32px ;
 }
 
 .btn:hover {
   color:white;
-  background: lightcoral;
+  background-color: lightcoral;
+  border: 0 ;
 }
 
 nav {
@@ -122,11 +122,11 @@ nav {
 }
 
 #nav a:hover {
-  color: black;
+  color: white;
 }
 
 #nav a.router-link-exact-active {
-  color: black;
+  color: white;
 }
 
 #offcanvas{

@@ -222,11 +222,7 @@ export default {
   margin-top: 50px;
   margin: 0;
   padding: 0;
-  background: url("../assets/EU7vHF0U8AA1OA4.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background: transparent;
   color: white;
   backdrop-filter: blur(10px);
   z-index: 1;
