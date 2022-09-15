@@ -1,6 +1,6 @@
 <template>
   <div id="footer" class="d-flex justify-content-center align-content-center flex-column">
-    <p class="pb-4 ">Copyright &copy; 2022</p>
+    <h1 class="pb-4 ">Copyright &copy; 2022</h1>
     <div class="row gap-2 d-flex justify-content-center align-content-center flex-row">
       <div class="col-md-2">
         <a href="https://www.instagram.com/cassidymanuel_59" target="_blank"
@@ -83,5 +83,26 @@ export default {};
 .bi-solid.bi-envelope:hover{
     color: lightcoral;
   }
+
+  h1{
+      font-family: "Caveat", cursive !important;
+      animation: shake linear 5s infinite;
+      transform: scale(1.1);
+}
+
+@keyframes shake {
+     0%{
+        transform: rotateZ();
+    }
+
+    30%{
+         transform: scale(1.5);
+        transform: rotateZ(1.5deg);
+    }
+     60%{
+         transform: scale(1.6);
+        transform: rotateZ(-1.5deg);
+    }
+}
 
 </style>
