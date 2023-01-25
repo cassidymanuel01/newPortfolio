@@ -7,7 +7,7 @@
 </template>
 
 <script>
-// 
+// push test
 import navbar from '@/components/navbar.vue'
 import Footer from '@/components/footer.vue'
 
