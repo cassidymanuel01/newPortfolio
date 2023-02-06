@@ -10,7 +10,7 @@
         <div id="t" class="letter">t</div>
         <div id="f" class="letter">f</div>
         <div id="o" class="letter">o</div>
-        <div id="l" class="letter">l</div>npm 
+        <div id="l" class="letter">l</div> 
         <div id="i" class="letter">i</div>
         <div id="o" class="letter">o</div>
       </div>
