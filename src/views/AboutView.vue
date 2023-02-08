@@ -13,7 +13,7 @@
           </div>
           <div class="col-md-6">
             <h1 class="fw-bold pb-4">Aspiring Web developer</h1>
-            <p class="fw-bold pb-4">I am 19 years old and currently a student at Life Choices Coding Academy. I am respectful, dedicated and a team player. I always keep a positive mindset when I approach situations. I also always try to enjoy the little things in life. I have always been fascinated by coding ever since I realised that it was not as hard and bad as I thought it would be. I feel that coding is fun. Since then, I have developed an interest in coding</p>
+            <p class="fw-bold pb-4">I am 19 years old and was a student at Life Choices Coding Academy. I am respectful, dedicated and a team player. I always keep a positive mindset when I approach situations. I also always try to enjoy the little things in life. I have always been fascinated by coding ever since I realised that it was not as hard as I thought it would be. I feel that coding is fun. Since then, my love for coding has grown. </p>
             <p class="lead fw-bold">Birthday : 01-04-2003 </p>
                 <p class="lead fw-bold">Phone : 063 833 8384</p>
                 <p class="lead fw-bold">Email : cassidymanuel.59@gmail.com</p>
