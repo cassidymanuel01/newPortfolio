@@ -24,136 +24,53 @@
       id="skills"
       class="vh-150 d-flex justify-content-center align-items-center flex-column pb-5 pt-3"
     >
-      <div class="container text-start mt-3 pb-5 pt-5">
-        <div class="row text-start border-2 pb-5">
+      <div class="container text-center mt-3 pb-5 pt-5">
+        <div class="row text-center border-2 pb-5">
           <h1 class="text-center pb-3 pt-3">Technical Skills</h1>
           <div
             class="col-md-4 pb-4 border-2"
             data-aos="zoom-in"
             id="skills-container"
           >
-            <h2 class="display-6 fw-bold">HTML</h2>
-            <div class="progress border border-1">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 80%"
-              >
-                80%
-              </div>
-            </div>
+           <h2><i class="display-1 fa-brands fa-html5"></i></h2>
           </div>
+
           <div class="col-md-4 pb-4" data-aos="zoom-in">
-            <h2 class="display-6 fw-bold">CSS</h2>
-            <div class="progress border border-1">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 80%"
-              >
-                80%
-              </div>
-            </div>
+          <i class="display-1 fa-brands fa-css3-alt"></i>
           </div>
+
           <div class="col-md-4 pb-4" data-aos="zoom-in">
-            <h2 class="display-6 fw-bold">Bootstrap</h2>
-            <div class="progress border border-1">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar"
-                aria-valuenow="85"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 85%"
-              >
-                85%
-              </div>
-            </div>
+          <i class="display-1 fa-brands fa-bootstrap"></i>
           </div>
+
           <div class="col-md-4 pb-4" data-aos="zoom-in">
-            <h2 class="display-6 fw-bold">MY SQL</h2>
-            <div class="progress border border-1">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar"
-                aria-valuenow="70"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 70%"
-              >
-                70%
-              </div>
-            </div>
+          <i class="display-1 fa-solid fa-database"></i>
           </div>
+
           <div class="col-md-4 pb-4" data-aos="zoom-in">
-            <h2 class="display-6 fw-bold">Javascript</h2>
-            <div class="progress border border-1">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar"
-                aria-valuenow="60"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 60%"
-              >
-                60%
-              </div>
-            </div>
+          <i class="display-1 fa-brands fa-js"></i>
+          </div>
+
+          <div class="col-md-4 pb-4" data-aos="zoom-in">
+          <i class="display-1 fa-brands fa-wordpress"></i>
           </div>
         </div>
 
-        <div class="row text-start border-2 border-light">
+        <div class="row text-center border-2 border-light">
           <h1 class="text-center pe-4 display-4 pb-3 pt-3">Soft Skills</h1>
-          <div class="col-md-4 pb-4" data-aos="zoom-in">
-            <h2 class="display-6 fw-bold">Communication</h2>
-            <div class="progress border border-1">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 75%"
-              >
-                75%
-              </div>
-            </div>
+          <div class="col-md-4 pb-4">
+            <h2 class="display-4 fw-bold">Communication</h2>
+            <i class="display-2 fa-duotone fa-comment-sms"></i>
           </div>
+
           <div class="col-md-4 pb-4" data-aos="zoom-in">
-            <h2 class="display-6 fw-bold">Problem Solving</h2>
-            <div class="progress border border-1">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar"
-                aria-valuenow="95"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 95%"
-              >
-                95%
-              </div>
-            </div>
+            <h2 class="display-4 fw-bold">Problem Solving</h2>
+            <i class="display-1 fa-duotone fa-puzzle"></i>
           </div>
+
           <div class="col-md-4 pb-4" data-aos="zoom-in">
-            <h2 class="display-6 fw-bold">Scheduling</h2>
-            <div class="progress border border-1">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar"
-                aria-valuenow="85"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 85%"
-              >
-                85%
-              </div>
-            </div>
+            <h2 class="display-4 fw-bold">Scheduling</h2>
+            <i class="display-2 fa-solid fa-calendar-lines-pen"></i>
           </div>
         </div>
       </div>
@@ -195,6 +112,9 @@ export default {
 </script>
 
 <style scoped>
+
+
+
 .resume {
   background: url("../assets/EU7vHF0U8AA1OA4.jpg");
   background-size: cover;
