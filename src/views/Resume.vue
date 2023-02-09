@@ -173,11 +173,21 @@ export default {
             "I attended Mondale High, my subjects were Pure Maths, Life Science, Accounting, History, English, Afrikaans and Life Orientation",
         },
         {
+          date: "     September 2022 - January 2023",
+          desciption:
+            "I completed a 3 month SEO course with Grizzly New Marketing which covered all the SEO basics, WordPress, Divi and Google Analytics.",
+        },
+        {
           title: "Work Experience",
           date: "     March 2016 - present",
           desciption:
             "I have done voluntary work at Old Age Homes based in Cape Town, participated in environmental clean ups and I am regularly involved in activities at my church.",
         },
+        {
+          date: "     September 2022 - January 2023",
+          desciption:
+            "I worked with Grizzly New Marketing as an intern for 3 months.",
+        }
       ],
     };
   },
