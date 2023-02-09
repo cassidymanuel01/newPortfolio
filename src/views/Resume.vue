@@ -59,18 +59,17 @@
         <div class="row text-center border-2 border-light">
           <h1 class="text-center pe-4 display-4 pb-3 pt-3">Soft Skills</h1>
           <div class="col-md-4 pb-4">
-            <h2 class="display-4 fw-bold">Communication</h2>
-            <i class="display-2 fa-duotone fa-comment-sms"></i>
+            <h2 class="fw-bold">Communication</h2>
+            
           </div>
 
           <div class="col-md-4 pb-4" data-aos="zoom-in">
-            <h2 class="display-4 fw-bold">Problem Solving</h2>
-            <i class="display-1 fa-duotone fa-puzzle"></i>
+            <h2 class="fw-bold">Problem Solving</h2>
+            
           </div>
 
           <div class="col-md-4 pb-4" data-aos="zoom-in">
-            <h2 class="display-4 fw-bold">Scheduling</h2>
-            <i class="display-2 fa-solid fa-calendar-lines-pen"></i>
+            <h2 class="fw-bold">Scheduling</h2>
           </div>
         </div>
       </div>
@@ -208,7 +207,7 @@ h1{
 
 #skills h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
+  font-size: 1.3em;
   color: white;
 }
 
