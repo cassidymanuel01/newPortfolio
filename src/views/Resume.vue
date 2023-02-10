@@ -24,7 +24,7 @@
       id="skills"
       class="vh-150 d-flex justify-content-center align-items-center flex-column pb-5 pt-3"
     >
-      <div class="container text-center mt-3 pb-5 pt-5">
+      <div class="container text-center mt-3 pt-5">
         <div class="row text-center border-2 pb-5">
           <h1 class="text-center pb-3 pt-3">Technical Skills</h1>
           <div
@@ -32,44 +32,67 @@
             data-aos="zoom-in"
             id="skills-container"
           >
-           <h2><i class="display-1 fa-brands fa-html5"></i></h2>
+           <h2 class="fw-bold pb-2">HTML</h2>
+           <i class="display-1 fa-brands fa-html5"></i>
           </div>
 
           <div class="col-md-4 pb-4" data-aos="zoom-in">
+          <h2 class="fw-bold pb-2">CSS</h2>
           <i class="display-1 fa-brands fa-css3-alt"></i>
           </div>
 
           <div class="col-md-4 pb-4" data-aos="zoom-in">
+          <h2 class="fw-bold pb-2">Bootstrap</h2>
           <i class="display-1 fa-brands fa-bootstrap"></i>
           </div>
 
           <div class="col-md-4 pb-4" data-aos="zoom-in">
+          <h2 class="fw-bold pb-2">MySQL</h2>
           <i class="display-1 fa-solid fa-database"></i>
           </div>
 
           <div class="col-md-4 pb-4" data-aos="zoom-in">
+          <h2 class="fw-bold pb-2">JavaScript</h2>
           <i class="display-1 fa-brands fa-js"></i>
           </div>
 
           <div class="col-md-4 pb-4" data-aos="zoom-in">
+          <h2 class="fw-bold pb-2">WordPress</h2>
           <i class="display-1 fa-brands fa-wordpress"></i>
           </div>
+
+          <div class="col-md-4 pb-4" data-aos="zoom-in">
+          <h2 class="fw-bold pb-2">Divi</h2>
+          <i class="display-1 fa-solid fa-d"></i>
+          </div>
+
+          <div class="col-md-4 pb-4" data-aos="zoom-in">
+          <h2 class="fw-bold pb-2">SEO</h2>
+          <i class="display-1 fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="col-md-4 pb-4" data-aos="zoom-in">
+          <h2 class="fw-bold pb-2">Google Analytics</h2>
+          <i class="display-1 fa-solid fa-chart-simple"></i>
+          </div>
+
         </div>
 
-        <div class="row text-center border-2 border-light">
+        <div class="row text-center border-2 border-light ">
           <h1 class="text-center pe-4 display-4 pb-3 pt-3">Soft Skills</h1>
           <div class="col-md-4 pb-4">
-            <h2 class="fw-bold">Communication</h2>
-            
+            <h2 class="fw-bold pb-2">Communication</h2>
+            <i class="display-1 fa-solid fa-comments"></i>
           </div>
 
           <div class="col-md-4 pb-4" data-aos="zoom-in">
-            <h2 class="fw-bold">Problem Solving</h2>
-            
+            <h2 class="fw-bold pb-2">Problem Solving</h2>
+            <i class="display-1 fa-solid fa-puzzle-piece"></i>
           </div>
 
           <div class="col-md-4 pb-4" data-aos="zoom-in">
-            <h2 class="fw-bold">Scheduling</h2>
+            <h2 class="fw-bold pb-2">Scheduling</h2>
+            <i class="display-1 fa-solid fa-calendar-check"></i>
           </div>
         </div>
       </div>
@@ -136,7 +159,6 @@ export default {
 }
 .resumeBody{
     display: flex;
-
 }
 
 
@@ -220,17 +242,5 @@ h1{
   font-family: 'Open Sans', sans-serif;
 }
 
-.progress-bar {
-  background-color: lightcoral;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-}
 
-.progress {
-  background: url("../assets/EU7vHF0U8AA1OA4.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}
 </style>

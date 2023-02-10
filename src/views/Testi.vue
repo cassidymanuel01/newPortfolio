@@ -6,11 +6,11 @@
         Testimonials
       </h1>
     </div>
-    <div >
+    <div>
         <div
-          class="container d-flex" 
-        ><div class="row">
-            <div class="col-md-6" v-for="testimonial in testimonials"
+          class="container d-flex">
+          <div class="row">
+          <div class="col-md-6" v-for="testimonial in testimonials"
           :key="testimonial">
             <div class="col-md-1 pb-3 resumeBody">
               <img class="testi-img" :src="testimonial.imgURL" />
